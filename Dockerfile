@@ -1,2 +1,2 @@
 FROM mongo:4.2
-RUN apt-get install magic-wormhole
+RUN apt update && apt install magic-wormhole
